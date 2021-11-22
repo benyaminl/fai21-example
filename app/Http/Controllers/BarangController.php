@@ -92,4 +92,8 @@ class BarangController extends Controller
         return response("Berhasil di hapus!", 200)
             ->cookie("data", json_encode($dataJson), "1000");
     }
+
+    public function coba(){
+        //ini coba laravel github
+    }
 }
