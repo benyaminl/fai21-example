@@ -96,4 +96,7 @@ class BarangController extends Controller
     public function cobaCOba(){
         //coba doang
     }
+    public function coba(){
+        //ini coba laravel github
+    }
 }
