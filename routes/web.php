@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\BarangController;
-use App\Http\Controllers\TransaksiController;
+use App\Http\Controllers\Customer\ListController;
+use App\Http\Controllers\Customer\TransaksiController;
+// use App\Http\Controllers\TransaksiController;
 use App\Http\Controllers\VoucherController;
 use App\Http\Controllers\UserController;
 use App\Models\Voucher;
@@ -88,3 +90,6 @@ Route::prefix("/master")->middleware("loggedin")->group(function() {
             ->whereNumber("id");
     });
 });
+
+Route::get("/transaksi", [TransaksiController::class, "doTransaksi"]);
+Route::get("/cust-list", [ListController::class, "list"]);
