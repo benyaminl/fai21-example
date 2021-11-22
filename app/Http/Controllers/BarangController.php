@@ -93,6 +93,9 @@ class BarangController extends Controller
             ->cookie("data", json_encode($dataJson), "1000");
     }
 
+    public function cobaCOba(){
+        //coba doang
+    }
     public function contohRoyokan() {
         // Ini Contoh Royokan
     }
