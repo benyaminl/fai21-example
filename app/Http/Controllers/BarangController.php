@@ -96,4 +96,8 @@ class BarangController extends Controller
     public function contohRoyokan() {
         // Ini Contoh Royokan
     }
+
+    public function coba(){
+        //ini coba laravel github
+    }
 }
