@@ -9,5 +9,6 @@ class TransaksiController extends Controller
 {
     public function doTransaksi() {
         // Some Transaction happen!
+        return response("HALO Ini Perubahan");
     }
 }
