@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class ListController extends Controller
 {
     public function list(){
-
+        return response("ini halaman list");
     }
 }
