@@ -5,7 +5,9 @@ namespace App\Http\Controllers\Customer;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class BarangController extends Controller
+class TransaksiController extends Controller
 {
-
+    public function doTransaksi() {
+        // Some Transaction happen!
+    }
 }
