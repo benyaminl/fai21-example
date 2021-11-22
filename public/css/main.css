@@ -1,0 +1,7 @@
+.error {
+    background-color: rgb(255, 200, 200);
+}
+
+.success {
+    background-color: lightgreen;
+}
